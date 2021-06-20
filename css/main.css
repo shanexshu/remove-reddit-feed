@@ -2,6 +2,8 @@ html[remove_homepage="true"] div[class="_1OVBBWLtHoSPfGCRaPzpTf _3nSp9cdBpqL13Cq
 
 html[remove_sidebar="true"] div[data-testid="frontpage-sidebar"]
 
+html[remove_sidebar="true"] div[data-testid="subreddit-sidebar"]
+
 {
 	display: none !important;
 }
