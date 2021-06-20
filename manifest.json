@@ -1,6 +1,6 @@
 {
-  "name": "Remove Reddit Homepage",
-  "description": "Stop the endless Reddit scrolling while allowing access for specific questions.",
+  "name": "Remove Reddit Feed",
+  "description": "Stop the endless Reddit scrolling while allowing access to valuable answers on the site.",
   "homepage_url": "https://github.com/shanexshu",
   "manifest_version": 2,
   "version": "0.1",
