@@ -1,0 +1,49 @@
+{
+  "name": "Remove Reddit Homepage",
+  "description": "Stop the endless Reddit scrolling while allowing access for specific questions.",
+  "homepage_url": "https://github.com/shanexshu",
+  "manifest_version": 2,
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "css": ["css/main.css"],
+      "all_frames": true,
+      "matches": ["*://*.reddit.com/*"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["*://*.reddit.com/*"],
+      "js": ["js/main.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+
+  "page_action": {
+    "browser_style": true,
+    "show_matches": ["*://*.reddit.com/*"],
+    "default_popup": "options.html",
+    "default_title": "Options",
+    "default_icon": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "64": "images/64.png"
+    }
+  },
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "webRequest",
+    "webNavigation",
+    "webRequestBlocking",
+    "*://*.reddit.com/*"
+  ]
+}
