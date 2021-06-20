@@ -1,8 +1,8 @@
-# Remove Reddit Homepage
-Chrome extension for removing distracting Reddit homepage
+# Remove Reddit Feed
+Chrome extension for removing distracting Reddit homepage and subreddit feeds
 
 ### What does it do?
-This project hides the Reddit homepage, so you won't be tempted to mindlessly scroll for hours. But rather than blocking the whole site, you will still have access to individual posts that you find from searching a question on Google, for example.
+This project hides the feed for the front page and subreddits, so you won't be tempted to mindlessly scroll for hours. But rather than blocking the whole site, you will still have access to individual posts that you find from searching a question on Google, for example.
 
 # How to set up this extension for local development?
 
