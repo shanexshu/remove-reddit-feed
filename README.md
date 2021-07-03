@@ -13,3 +13,6 @@ This project hides the feed for the front page and subreddits, so you won't be t
   <li>Click 'Load unpacked'</li>
   <li>Select the entire remove-reddit-home folder</li>
 </ol>
+
+# Feedback/Suggestions for other features
+Suggest away! One possible feature is allowing the option to add a custom whitelist for subreddits that are more educational.
