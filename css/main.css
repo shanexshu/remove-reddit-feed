@@ -1,6 +1,9 @@
-/* html[remove_homepage="true"] div[class="_1OVBBWLtHoSPfGCRaPzpTf _3nSp9cdBpqL13CqjdMr2L_"], */
+/* html[remove_homepage="true"] div[class="_1OVBBWLtHoSPfGCRaPzpTf _3nSp9cdBpqL13CqjdMr2L_"], (original)*/ 
+/* html[remove_homepage="true"] div[class="_1vyLCp-v-tE5QvZovwrASa"], hides everything, including specific links, not just front page and subreddit feeds*/
 
-html[remove_homepage="true"] div[class="_1vyLCp-v-tE5QvZovwrASa"],
+html[remove_homepage="true"] div[class="_1OVBBWLtHoSPfGCRaPzpTf _3nSp9cdBpqL13CqjdMr2L_ _2OVNlZuUd8L9v0yVECZ2iA"],
+
+html[remove_homepage="true"] div[id="siteTable"],
 
 html[remove_sidebar="true"] div[data-testid="frontpage-sidebar"],
 
